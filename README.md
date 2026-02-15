@@ -4,7 +4,7 @@ Um aplicativo simples e intuitivo para gerenciamento de tarefas diárias, desenv
 
 🔗 **Deploy:** [Acesse o projeto online aqui](https://gerenciador-de-tarefas-react-dusds8k6w.vercel.app)
 
-![Imagem do gerenciador](src\assets\imagens\screenshot.png)
+<img width="700" height="615" alt="screenshot" src="https://github.com/user-attachments/assets/ea503bfe-b302-4d1a-a907-d7c3657b8784" />
 
 ## 🚀 Funcionalidades
 
@@ -54,5 +54,10 @@ npm install
 
 4. **Rode o servidor de desenvolvimento:**
 
-Bash
 npm run dev
+5. **Acesse no navegador:**
+O terminal mostrará um link (geralmente http://localhost:5173).
+
+Feito com 💜 por Guilherme Calixto
+
+Referências: Curso React Felipe Rocha https://www.youtube.com/watch?v=2RWsLmu8yVc&t=4492s
