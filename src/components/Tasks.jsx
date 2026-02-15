@@ -5,7 +5,9 @@ function Tasks({ onTaskClick, deleteTaskClick, tasks }) {
   const navigate = useNavigate();
 
   function onSeeDetailsClick(task) {
-    navigate(`/task?title=${task.title}&description=${task.description}`);
+    navigate("/task", {
+      state: { title: task.title, description: task.description },
+    });
   }
 
   return (
