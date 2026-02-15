@@ -1,8 +1,58 @@
-# React + Vite
+# 📋 Gerenciador de Tarefas (Task Manager)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo simples e intuitivo para gerenciamento de tarefas diárias, desenvolvido para praticar conceitos fundamentais do React.
 
-Currently, two official plugins are available:
+🔗 **Deploy:** [Acesse o projeto online aqui](https://gerenciador-de-tarefas-react-dusds8k6w.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Imagem do gerenciador](src\assets\imagens\screenshot.png)
+
+## 🚀 Funcionalidades
+
+- **Adicionar Tarefas:** Crie novas tarefas com título e descrição detalhada.
+- **Listagem Dinâmica:** Visualize todas as suas tarefas em tempo real.
+- **Marcar como Concluída:** Clique na tarefa para riscar/desmarcar (toggle state).
+- **Detalhes da Tarefa:** Navegação para uma página exclusiva com os detalhes da tarefa (usando React Router).
+- **Excluir Tarefas:** Remova itens da lista facilmente.
+- **Persistência de Dados:** As tarefas são salvas no **LocalStorage** do navegador, garantindo que você não perca seus dados ao atualizar a página.
+
+## 🛠️ Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- **[React](https://react.dev/)** (Vite) - Biblioteca principal para construção da interface.
+- **[Tailwind CSS](https://tailwindcss.com/)** - Framework de estilização utilitário.
+- **[React Router DOM](https://reactrouter.com/)** - Gerenciamento de rotas e navegação (`useNavigate`, `useLocation`).
+- **[Lucide React](https://lucide.dev/)** - Ícones modernos e leves.
+- **[UUID](https://github.com/uuidjs/uuid)** - Geração de IDs únicos para as tarefas.
+- **Vercel** - Plataforma utilizada para o deploy da aplicação.
+
+## 🧠 Conceitos Praticados
+
+Durante o desenvolvimento deste projeto, foram aplicados os seguintes conceitos:
+
+- **Hooks do React:** `useState` (gerenciamento de estado) e `useEffect` (efeitos colaterais e persistência).
+- **Manipulação de Arrays:** Uso de `map`, `filter` e spread operator (`...`) para gerenciar a lista de tarefas.
+- **Props e Componentização:** Passagem de dados e funções entre componentes pai e filho.
+- **Roteamento:** Navegação entre páginas passando dados via `state` (sem expor na URL).
+- **LocalStorage:** Leitura e gravação de dados JSON no navegador.
+
+## 📦 Como rodar o projeto localmente
+
+Siga os passos abaixo para rodar o projeto na sua máquina:
+
+1. **Clone o repositório:**
+
+   git clone [https://github.com/GuilhermeCalixto1/GerenciadorDeTarefasReact.git](https://github.com/GuilhermeCalixto1/GerenciadorDeTarefasReact.git)
+   
+2. **Entre na pasta do projeto:**
+
+cd GerenciadorDeTarefasReact
+
+3. **Instale as dependências:**
+
+npm install
+
+4. **Rode o servidor de desenvolvimento:**
+
+Bash
+npm run dev
